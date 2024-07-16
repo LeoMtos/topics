@@ -67,7 +67,6 @@ Retrieves information about a topic by their ID.
 | `id` | `integer` |  **Required** topic's ID. |
 
 *Get Topic: Get a list of topics
-
 ```http
   GET /api/v1/topic
 ```
