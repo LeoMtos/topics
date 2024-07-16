@@ -20,17 +20,17 @@ import lombok.Setter;
 
 @Entity
 @Table(name="frases")
-public class FrasesEntity {
+public class TopicEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String frase;
 
     private String mensaje;
 
     private String nombreCurso;
     
+    private String titulo;
+
     private LocalDate fechaCreacion;
 
 }
